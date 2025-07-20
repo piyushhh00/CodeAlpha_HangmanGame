@@ -1,31 +1,10 @@
 # Hangman Game
 
-A classic Hangman word guessing game implemented in two versions: a web-based version using HTML, CSS, and JavaScript, and a command-line version using Python.
+A classic Hangman word guessing game implemented in one version: a command-line version using Python.
 
 ## Game Description
 
 Hangman is a word guessing game where the player tries to guess a hidden word by suggesting letters. For each incorrect guess, a part of a hangman figure is drawn. The player wins by guessing all the letters in the word before the complete hangman figure is drawn (6 incorrect guesses).
-
-## Web Version
-
-### Features
-
-- Interactive keyboard for letter selection
-- Visual hangman figure that builds with each incorrect guess
-- Word display with placeholders for unguessed letters
-- Game status information (incorrect guesses, guessed letters)
-- Win/lose messages
-- Responsive design that works on different screen sizes
-
-### How to Play
-
-1. Open the `index.html` file in a web browser
-2. A random word will be selected, and placeholders will be displayed
-3. Click on letter buttons to make guesses
-4. For each correct guess, the letter will appear in the word
-5. For each incorrect guess, a part of the hangman figure will appear
-6. Win by guessing all letters before the hangman is complete
-7. Click the "Restart Game" button to play again
 
 ## Python Version
 
@@ -47,24 +26,15 @@ Hangman is a word guessing game where the player tries to guess a hidden word by
 7. The game will end when you either guess the word or run out of attempts
 
 ## Project Structure
-
-- `index.html` - The main HTML file for the web version
-- `styles.css` - CSS styling for the web version
-- `script.js` - JavaScript code for the web version's game logic
 - `hangman.py` - Python script for the command-line version
 - `README.md` - This file with game instructions
 
 ## Customization
 
-You can customize the game by modifying the word list in either version:
-
-- In the web version: Edit the `words` array in `script.js`
+You can customize the game by modifying the word list in python version:
 - In the Python version: Edit the `words` list in `hangman.py`
 
 ## Requirements
-
-### Web Version
-- Any modern web browser (Chrome, Firefox, Safari, Edge)
 
 ### Python Version
 - Python 3.x
@@ -75,4 +45,4 @@ This project is open source and available for personal and educational use.
 
 ## Acknowledgements
 
-This game was created as a programming exercise to demonstrate basic programming concepts in both web development and Python programming.
+This game was created as a programming exercise to demonstrate basic programming concepts in Python programming.
